@@ -1,0 +1,13 @@
+.git
+.gitignore
+.planning
+.DS_Store
+__pycache__
+*.pyc
+data/raw/*
+data/processed/*
+tests/
+CLAUDE.md
+README.md
+.venv
+.env

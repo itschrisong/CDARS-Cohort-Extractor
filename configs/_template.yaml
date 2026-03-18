@@ -1,0 +1,55 @@
+# DoEMDataWrangler configuration template
+# Copy this file and modify for your cohort.
+
+inclusion:
+  logic: OR
+  rules: []
+    # Example: include rows where any diagnosis column starts with "410" (MI)
+    # - columns:
+    #     - Principal Diagnosis Code
+    #     - Diagnosis (rank 2)
+    #     - Diagnosis (rank 3)
+    #   operator: starts_with
+    #   value: '410'
+    #
+    # Supported operators:
+    #   starts_with, contains, equals, not_equals, in_list,
+    #   regex, icd9_range, before_date, after_date,
+    #   >, <, >=, <=, is_null, not_null
+
+exclusion:
+  logic: OR
+  rules: []
+    # Example: exclude patients under 18
+    # - column: Admission Age (Year) (episode based)
+    #   operator: '<'
+    #   value: '18'
+
+# Optional clinical exclusions
+# death_buffer_days: 28
+# followup_buffer_days: 28
+
+patient_id_column: Reference Key
+date_column: Attendance Date (yyyy-mm-dd)
+
+features:
+  demographics: false
+  triage: false
+  icd9_flags: false
+  lookback_counts: false
+  charlson: false
+  recurrence: false
+
+lookback_days: 365
+recurrence_windows:
+  - 28
+
+# ICD-9 flag definitions (used when icd9_flags: true)
+# icd9_flag_definitions:
+#   condition_name:
+#     - [start_code, end_code]
+
+# Training eras (optional)
+# eras:
+#   A: [2015, 2016]
+#   B: [2017, 2018]

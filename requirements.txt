@@ -1,0 +1,18 @@
+# Core UI
+streamlit>=1.28,<2.0
+
+# Data processing
+pandas>=2.0,<3.0
+numpy>=1.24,<3.0
+pyarrow>=12.0,<25.0
+
+# File ingestion
+openpyxl>=3.1,<4.0
+xlrd>=2.0,<3.0
+lxml>=4.9,<7.0
+
+# Config
+pyyaml>=6.0,<7.0
+
+# Testing
+pytest>=7.0,<10.0

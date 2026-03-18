@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      # Persist uploaded data and configs between restarts
+      - ./data:/app/data
+      - ./configs:/app/configs

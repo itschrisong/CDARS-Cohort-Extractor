@@ -1,0 +1,28 @@
+# Dev / IDE
+.planning/
+.claude/
+.pytest_cache/
+.DS_Store
+CLAUDE.md
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Data (patient data — never commit)
+data/raw/
+data/processed/
+
+# Secrets
+.env
+
+# OS
+Thumbs.db
