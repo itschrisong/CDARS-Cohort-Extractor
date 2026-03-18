@@ -20,7 +20,7 @@ Follow these steps exactly. You need either **Docker** (easiest) or **Python 3.1
 2. **Get the code** — open Terminal (Mac) or PowerShell (Windows):
    ```bash
    git clone <repo-url>
-   cd CDARSDataWrangler
+   cd CDARS-Cohort-Extractor
    ```
 
 3. **Start the app** (first time takes ~2 minutes to build):
@@ -50,7 +50,7 @@ Follow these steps exactly. You need either **Docker** (easiest) or **Python 3.1
 2. **Get the code**:
    ```bash
    git clone <repo-url>
-   cd CDARSDataWrangler
+   cd CDARS-Cohort-Extractor
    ```
 
 3. **Create a virtual environment and install dependencies**:
