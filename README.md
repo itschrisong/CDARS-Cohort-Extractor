@@ -1,4 +1,4 @@
-# CDARS DataWrangler
+# CDARS Cohort Extractor
 
 A local-only Streamlit tool for extracting clinical cohorts from CDARS A&E data. Upload XLS/XLSX files from CDARS, define filter rules, and export as CSV or Parquet.
 
