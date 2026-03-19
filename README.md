@@ -1,4 +1,4 @@
-# CDARS Cohort Extractor
+CDARS Cohort Extractor
 
 A local-only Streamlit tool for extracting clinical cohorts from CDARS A&E data. Upload XLS/XLSX files from CDARS, define filter rules, and export as CSV or Parquet.
 
@@ -19,7 +19,7 @@ Follow these steps exactly. You need either **Docker** (easiest) or **Python 3.1
 
 2. **Get the code** — open Terminal (Mac) or PowerShell (Windows):
    ```bash
-   git clone < https://github.com/itschrisong/CDARS-Cohort-Extractor.git>
+   git clone https://github.com/itschrisong/CDARS-Cohort-Extractor.git
    cd CDARS-Cohort-Extractor
    ```
 
@@ -49,7 +49,7 @@ Follow these steps exactly. You need either **Docker** (easiest) or **Python 3.1
 
 2. **Get the code**:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/itschrisong/CDARS-Cohort-Extractor.git
    cd CDARS-Cohort-Extractor
    ```
 
